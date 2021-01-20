@@ -1,5 +1,7 @@
 # Geocoder Mixin for NEOS CMS
 
+[![Packagist](https://img.shields.io/packagist/v/ujamii/geocoder-neos.svg?colorB=green&style=flat)](https://packagist.org/packages/ujamii/geocoder-neos)
+
 This package provides a very flexible way of geocoding your node properties.
 Imagine you have a document or content type with some physical address data (street, zip code, city) and
 you want to display this data on a map (for instance with [WebExcess.OpenStreetMap](https://github.com/webexcess/openstreetmap))
