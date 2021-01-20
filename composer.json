@@ -1,7 +1,14 @@
 {
+    "name": "ujamii/geocoder-neos",
     "description": "This package provides a very flexible way of geocoding your node properties.",
     "type": "neos-package",
-    "name": "ujamii/geocoder-neos",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Michael Grundkötter",
+            "email": "mg@ujamii.com"
+        }
+    ],
     "require": {
         "neos/flow": "*",
 
