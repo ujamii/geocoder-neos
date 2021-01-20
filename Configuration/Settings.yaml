@@ -1,0 +1,6 @@
+Ujamii:
+  Geocoder:
+    GeocodingService:
+      observedNodeType: 'Ujamii.Geocoder:Mixin.AddressData'
+      observedProperties: ['street', 'zip', 'city']
+      mandatoryProperties: ['street', 'zip', 'city']

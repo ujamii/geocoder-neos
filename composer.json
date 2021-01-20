@@ -1,0 +1,21 @@
+{
+    "description": "This package provides a very flexible way of geocoding your node properties.",
+    "type": "neos-package",
+    "name": "ujamii/geocoder-neos",
+    "require": {
+        "neos/flow": "*",
+
+        "geocoder-php/nominatim-provider": "^5.4",
+        "php-http/message": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ujamii\\Geocoder\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ujamii.Geocoder"
+        }
+    }
+}

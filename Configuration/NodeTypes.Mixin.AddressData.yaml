@@ -1,0 +1,51 @@
+'Ujamii.Geocoder:Mixin.AddressData':
+  abstract: true
+  ui:
+    inspector:
+      groups:
+        location:
+          label: 'Standort'
+          icon: 'icon-map-marker-alt'
+  properties:
+    street:
+      type: string
+      ui:
+        label: 'Straße'
+        inspector:
+          group: 'location'
+    zip:
+      type: string
+      ui:
+        label: 'PLZ'
+        inspector:
+          group: 'location'
+    city:
+      type: string
+      ui:
+        label: 'Ort'
+        inspector:
+          group: 'location'
+    latitude:
+      type: string
+      ui:
+        label: 'Latitude'
+        inspector:
+          group: 'hidden'
+          editorOptions:
+            disabled: true
+    longitude:
+      type: string
+      ui:
+        label: 'Longitude'
+        inspector:
+          group: 'hidden'
+          editorOptions:
+            disabled: true
+    lastGeoQuery:
+      type: string
+      ui:
+        label: 'Last GeoData query'
+        inspector:
+          group: 'hidden'
+          editorOptions:
+            disabled: true

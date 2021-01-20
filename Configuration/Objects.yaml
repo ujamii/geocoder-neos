@@ -1,0 +1,23 @@
+Geocoder\StatefulGeocoder:
+  className: 'Geocoder\StatefulGeocoder'
+Geocoder\Provider\Nominatim\Nominatim:
+  className: 'Geocoder\Provider\Nominatim\Nominatim'
+
+Ujamii\Geocoder\Service\GeocodingService:
+  properties:
+    geocoder:
+      object:
+        name: 'Geocoder\StatefulGeocoder'
+        arguments:
+          1:
+            object:
+              name: 'Geocoder\Provider\Nominatim\Nominatim'
+              arguments:
+                1:
+                  object: 'Http\Adapter\Guzzle6\Client'
+                2:
+                  value: 'https://nominatim.openstreetmap.org'
+                3:
+                  value: 'NEOS CMS Ujamii.Geocoder'
+          2:
+            value: 'de'
