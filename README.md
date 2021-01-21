@@ -194,6 +194,7 @@ and then configure it in the `Objects.yaml` providing optional config as constru
 ## TODOs
 
 - feature: multi language
+- feature: add an eel helper with methods for geocoding and reverse geocoding
 - feature: Command Controller for filling empty values (like for imported nodes)
 
 ## License and Contribution
